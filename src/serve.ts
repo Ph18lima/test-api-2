@@ -42,6 +42,6 @@ App.use((err: Error, req: Request, res: Response, next: NextFunction) => {
         message: "internal serve error"
     })
 })
-
+const port = process.env.PORT || 3333;
 //Listando a API na port 3333
-App.listen(3333 ,() => console.log("\n\n servidor rodando \n\n"));
+App.listen(port ,() => console.log("\n\n servidor rodando \n\n"));

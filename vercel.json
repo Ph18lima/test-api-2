@@ -5,7 +5,7 @@
       "src": "./dist/serve.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["dist/**"]
+        "includeFiles": ["./dist/**"]
       }
     }
   ],
